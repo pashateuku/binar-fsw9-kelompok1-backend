@@ -3,7 +3,7 @@
 
 .navbar {
     font-family: 'Josefin Sans', sans-serif;
-    height: 12vh !important;
+    height: 10vh !important;
 }
 
 .navbar-brand {
@@ -13,8 +13,8 @@
 }
 
 .logo {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     text-align: center !important;
     margin-top: 12px;
 }
@@ -30,7 +30,7 @@ span {
 }
 
 .list-text {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .nav-link {
@@ -39,4 +39,9 @@ span {
 
 .nav-link:hover {
     color: orange !important;
+}
+
+.reg-button {
+    width: 9vw;
+    height: 4vh;
 }

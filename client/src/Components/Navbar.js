@@ -24,7 +24,7 @@ function Navbar() {
           <div className='collapse navbar-collapse list-text' id='navbarSupportedContent'>
             <ul className="navbar-nav m-auto mb-lg-0">
               <li className="nav-item mx-3">
-                <a className="nav-link" href="/">HOME</a>
+                <a className="nav-link active" aria-current="page" href="/">HOME</a>
               </li>
               <li className="nav-item mx-3">
                 <a className="nav-link" href="/">LIST GAME</a>
