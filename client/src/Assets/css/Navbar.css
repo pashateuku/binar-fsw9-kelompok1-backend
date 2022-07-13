@@ -29,6 +29,7 @@ body {
     color: white !important;
     font-size: 16px;
     display: flex;
+    margin-left: 2rem;
 }
 
 span {
@@ -36,7 +37,7 @@ span {
 }
 
 .list-text {
-    font-size: 16px;
+    font-size: 1.5vh;
 }
 
 .nav-link {
