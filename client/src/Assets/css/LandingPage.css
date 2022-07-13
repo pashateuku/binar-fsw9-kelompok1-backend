@@ -2,3 +2,26 @@
 body {
     padding-top: 100px;
 }
+
+.bg {
+    background-color: #ECE8E1;
+}
+
+.container {
+    background-color: white;
+}
+
+.text-end {
+    align-self: center;
+}
+
+.text-start {
+    align-self: center;
+}
+
+.line {
+    width: 5px;
+    background-color: black;
+    height: 200px;
+
+}
