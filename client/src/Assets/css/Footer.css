@@ -36,10 +36,16 @@ footer {
     width: 100vw;
     padding: 20px;
     text-align: center;
+    margin-top: 10px;
 }
 
 .footer-bottom p {
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+}
+
+.logo-footer {
+    width: 100px;
+    height: 100px;
 }
