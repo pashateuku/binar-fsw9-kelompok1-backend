@@ -15,12 +15,6 @@ function Navbar() {
               <img className='logo' src={NavbarLogo} alt="logo" />
               <h4 className='navbar-text'>TEAM<span> ONE</span></h4>
             </a>
-            {/* hamburger button */}
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
           </div>
           <div className='col-6'>
             {/* navbar list */}
@@ -53,6 +47,12 @@ function Navbar() {
                 </li>
               </ul>
             </div>
+            {/* hamburger button */}
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
         </div>
       </nav>
