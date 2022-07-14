@@ -123,8 +123,8 @@ function HeroLandingPage() {
             <p>There are many variations of the games you can played.</p>
           </div>
         </div>
-        <div className='row px-5'>
-          <div className='col-lg-4 mb-4'>
+        <div className='row px-5 mb-4'>
+          <div className='col-lg-4'>
             <img src={Gta} class="img-fluid" alt="game" />
           </div>
           <div className='col-lg-4'>
@@ -133,15 +133,19 @@ function HeroLandingPage() {
           <div className='col-lg-4'>
             <img src={Dot} class="img-fluid" alt="game" />
           </div>
+        </div>
+        <div className='row px-5 mb-3'>
           <div className='col-lg-4'>
             <img src={Watch} class="img-fluid" alt="game" />
           </div>
           <div className='col-lg-4'>
             <img src={Val} class="img-fluid" alt="game" />
           </div>
-          <div className='col-lg-4 mb-3'>
+          <div className='col-lg-4'>
             <img src={Cyber} class="img-fluid" alt="game" />
           </div>
+        </div>
+        <div className='row'>
           <div className='text-center mt-2 mb-5'>
             <Button className='btn-list' color='danger'>SEE ALL GAME LIST</Button>
           </div>
