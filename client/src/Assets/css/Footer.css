@@ -20,32 +20,58 @@ footer {
     height: auto;
     width: 100vw;
     font-family: 'Josefin Sans', sans-serif;
-    padding-top: 40px;
+    padding-top: 20px;
     color: white;
-}
-
-.footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.footer-bottom {
-    width: 100vw;
-    padding: 20px;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.footer-bottom p {
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
 }
 
 .logo-footer {
     width: 100px;
     height: 100px;
+}
+
+.logo-area {
+    color: white;
+    flex-direction: column !important;
+    text-align: center !important;
+    align-self: center;
+
+}
+
+.footer-text-area {
+    text-align: end;
+    align-self: center;
+}
+
+.socials {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 30px;
+}
+
+.socials a {
+    color: white;
+    font-size: 2rem;
+}
+
+.tik:hover {
+    color: #F12950;
+}
+
+.ig:hover {
+    color: #EBB510;
+}
+
+.yt:hover {
+    color: #cd201f;
+}
+
+.fb:hover {
+    color: #1877f2;
 }
