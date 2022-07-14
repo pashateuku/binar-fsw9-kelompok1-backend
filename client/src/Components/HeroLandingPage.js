@@ -17,14 +17,19 @@ import Fall from '../Assets/images/fall.jpg';
 import Man1 from '../Assets/images/man3.jpg';
 import Man2 from '../Assets/images/man4.jpg';
 import Man3 from '../Assets/images/man5.jpg';
+//IMPORT VIDEO
+import BG from '../Assets/video/bg.mp4';
 
 
 function HeroLandingPage() {
   return (
     <>
       {/* 1st page */}
-      <div className='container-fluid bg-main'>
+      <div className='container-fluid'>
         <div className='row main-section'>
+          <video autoPlay loop muted playsInline width='2560' height='1080' className='back-video'>
+            <source src={BG} />
+          </video>
           <div className='col-lg-12'>
             <div className='title-text'>
               <h1>TEAM<span>ONE</span></h1>

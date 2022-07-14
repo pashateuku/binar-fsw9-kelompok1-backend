@@ -15,6 +15,13 @@ body {
     background-color: #000000;
 }
 
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 .ptb {
     padding-top: 120px;
     padding-bottom: 120px;
