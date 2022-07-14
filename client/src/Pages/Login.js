@@ -1,12 +1,11 @@
 import React from 'react';
-
 //IMPORT COMPONENTS
 import Navbar from '../Components/Navbar';
 import FormLogin from '../Components/FormLogin';
 import Footer from '../Components/Footer'
-
+//IMPORT IMAGE
 import Watch from '../Assets/images/wd.png';
-
+//IMPORT GLOBAL STYLING
 import '../Assets/css/LoginForm.css';
 
 function Login() {

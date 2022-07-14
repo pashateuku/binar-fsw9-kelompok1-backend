@@ -40,7 +40,7 @@ function Navbar() {
             <div className='collapse navbar-collapse list-text justify-content-end' id='navbarSupportedContent'>
               <ul class="navbar-nav">
                 <li class="nav-item mx-3">
-                  <a class="nav-link" href="/">REGISTER</a>
+                  <a class="nav-link" href="/register">REGISTER</a>
                 </li>
                 <li class="nav-item mx-3">
                   <a class="nav-link" href="/login">LOGIN</a>

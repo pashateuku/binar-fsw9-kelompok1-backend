@@ -21,7 +21,7 @@ function FormLogin() {
                         <input id='password' type="password" name="password" className='form-input' placeholder='Enter your password' />
                     </div>
                     <button className='form-input-btn' type='submit'>Login</button>
-                    <p className='form-input-login'>Dont have an account? Register <a href='/'>here</a></p>
+                    <p className='form-input-login'>Dont have an account? Register <a href='/register'>here</a></p>
                 </form>
             </div>
         </>
