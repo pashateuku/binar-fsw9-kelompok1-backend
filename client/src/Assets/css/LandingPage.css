@@ -16,9 +16,11 @@ body {
 }
 
 .back-video {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    position: fixed;
+    height: auto;
+    width: 140%;
+    top: 0;
+    left: 0;
     z-index: -1;
 }
 
@@ -33,7 +35,9 @@ body {
 
 .main-section {
     padding-top: 250px;
-    padding-bottom: 285px;
+    padding-bottom: 250px;
+    margin: 0;
+
 }
 
 .title-text {
