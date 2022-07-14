@@ -91,7 +91,7 @@ body {
 
 .card-icon {
     font-size: 4rem;
-    color: orange;
+    color: #DC3545;
 }
 
 .card-title {
@@ -107,7 +107,7 @@ body {
 
 .card {
     background-color: rgb(238, 238, 238);
-    border: 0;
+    border: 0 !important;
     height: 25vh;
 }
 
@@ -129,4 +129,26 @@ body {
     -moz-border-radius: 20px !important;
     -ms-border-radius: 20px !important;
     -o-border-radius: 20px !important;
+}
+
+.testi {
+    color: orange;
+}
+
+.name-testi {
+    color: #DC3545;
+    text-align: center;
+    font-weight: 700;
+}
+
+.img-area {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 5px solid #DC3545;
 }

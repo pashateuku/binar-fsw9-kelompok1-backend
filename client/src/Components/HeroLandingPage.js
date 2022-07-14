@@ -14,6 +14,10 @@ import Watch from '../Assets/images/wd.png';
 import Val from '../Assets/images/valo.jpg';
 import Dot from '../Assets/images/dota.jpg';
 import Fall from '../Assets/images/fall.jpg';
+import Man1 from '../Assets/images/man3.jpg';
+import Man2 from '../Assets/images/man4.jpg';
+import Man3 from '../Assets/images/man5.jpg';
+
 
 function HeroLandingPage() {
   return (
@@ -133,15 +137,45 @@ function HeroLandingPage() {
           <div className='col-lg-4 mb-3'>
             <img src={Cyber} class="img-fluid" alt="game" />
           </div>
-          <div className='text-center mt-2'>
+          <div className='text-center mt-2 mb-5'>
             <Button className='btn-list' color='danger'>SEE ALL GAME LIST</Button>
           </div>
         </div>
       </div>
-      {/* 3rd page */}
-      <div className='container-fluid py-5 bg-white'>
-        <div className='row mb-5'>
-
+      {/* 4th page */}
+      <div className='container-fluid py-5 bg'>
+        <div className='row py-5 px-5 text-center'>
+          <h5 className='fw-bold testi'>TESTIMONIALS</h5>
+          <h2> What People Say</h2>
+        </div>
+        <div className='row px-5'>
+          <div className='col-md-4'>
+            <div class="card-testi">
+              <img src={Man1} class="card-img-top" alt="man" />
+              <div class="card-body">
+                <h4 className='name-testi'>BRODY</h4>
+                <p class="card-text text-center">"The games here are very fun, I play until I lose track of time"</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-4'>
+            <div class="card-testi">
+              <img src={Man3} class="card-img-top" alt="man" />
+              <div class="card-body">
+                <h4 className='name-testi'>JHONY</h4>
+                <p class="card-text text-center">"The game here is very unique, I usually play it with my child"</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-4'>
+            <div class="card-testi">
+              <img src={Man2} class="card-img-top" alt="man" />
+              <div class="card-body">
+                <h4 className='name-testi'>PABLO</h4>
+                <p class="card-text text-center">"The support here really helps me when I have problems and the game is very cool to play"</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
