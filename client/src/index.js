@@ -7,6 +7,7 @@ import "./index.css";
 import LandingPage from "./Pages/LandingPage";
 import LoginPage from "./Pages/Login";
 import RegisterPage from "./Pages/Register";
+import HomePage from "./Pages/HomePage";
 //IMPORT BOOTSTRAP
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,6 +18,7 @@ root.render(
       <Route path="/" element={<LandingPage />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/register" element={<RegisterPage />} />
+      <Route path="/home" element={<HomePage />} />
     </Routes>
   </BrowserRouter>
 );
