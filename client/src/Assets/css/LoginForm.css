@@ -64,6 +64,18 @@ body {
     border-radius: 0 10px 10px 0;
     position: relative;
     background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -ms-border-radius: 0 10px 10px 0;
+    -o-border-radius: 0 10px 10px 0;
+}
+
+.radius {
+    border-radius: 0 10px 10px 0 !important;
+    -webkit-border-radius: 0 10px 10px 0 !important;
+    -moz-border-radius: 0 10px 10px 0 !important;
+    -ms-border-radius: 0 10px 10px 0 !important;
+    -o-border-radius: 0 10px 10px 0 !important;
 }
 
 .form {
@@ -154,4 +166,18 @@ body {
     text-decoration: none;
     color: orange;
     font-weight: 600;
+}
+
+.forgot {
+    color: white;
+    opacity: 0.7;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-align: end;
+    margin-top: 0.3rem;
+}
+
+.forgot:hover {
+    color: orange;
+    opacity: 1;
 }

@@ -5,7 +5,7 @@ import '../Assets/css/LoginForm.css';
 function FormLogin() {
     return (
         <>
-            <div className='form-content-right'>
+            <div className='form-content-right radius'>
                 <form className='form'>
                     <h1>Login your account by filling out the information below.</h1>
                     <div className='form-inputs'>
@@ -19,6 +19,7 @@ function FormLogin() {
                             Password
                         </label>
                         <input id='password' type="password" name="password" className='form-input' placeholder='Enter your password' />
+                        <div className='forgot'><a href='/' className='forgot'>Forgot the password</a></div>
                     </div>
                     <button className='form-input-btn' type='submit'>Login</button>
                     <p className='form-input-login'>Dont have an account? Register <a href='/register'>here</a></p>
