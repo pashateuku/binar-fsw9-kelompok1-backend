@@ -43,7 +43,7 @@ function Navbar() {
                   <a class="nav-link" href="/">REGISTER</a>
                 </li>
                 <li class="nav-item mx-3">
-                  <a class="nav-link" href="/">LOGIN</a>
+                  <a class="nav-link" href="/login">LOGIN</a>
                 </li>
               </ul>
             </div>
