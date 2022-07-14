@@ -8,16 +8,14 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import HeroLandingPage from "../Components/HeroLandingPage";
 
-function App() {
+function LandingPage() {
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-        <HeroLandingPage />
-        <Footer />
-      </BrowserRouter>
+      <Navbar />
+      <HeroLandingPage />
+      <Footer />
     </>
   );
 }
 
-export default App;
+export default LandingPage;
