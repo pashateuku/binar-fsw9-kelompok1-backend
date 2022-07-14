@@ -11,8 +11,8 @@ import '../Assets/css/Carousel.css'
 function Carousel() {
     return (
         <>
-            <div className='container-fluid py-5 bg'>
-                <div className='row'>
+            <div className='container-fluid bg ptb'>
+                <div className='row px-4'>
                     <div className='col-5 px-5 hero-desc'>
                         <h1>TEAM <span>ONE</span> PRODUCTION</h1><hr />
                         <p>Are you ready for the unique game all the world ? prepare yourself and play the game</p>
