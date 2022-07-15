@@ -2,23 +2,18 @@ import React from 'react';
 //IMPORT REACTSTRAP COMPONENTS
 import { Button } from 'reactstrap';
 //IMPORT GLOBAL STYLING
-import '../Assets/css/LandingPage.css'
+import '../../Assets/css/LandingPage.css'
 //IMPORT COMPONENTS PAGE
-import Carousel from './Carousel';
+import Carousel from '../LandingPage/Carousel';
+import OurGames from '../Global/OurGames';
 //IMPORT ICONS
 import { BiUser, BiIdCard, BiBarChartAlt, BiFace, BiGitMerge, BiJoystick } from 'react-icons/bi'
 //IMPORT LOGO IMAGES
-import Cyber from '../Assets/images/cyber.jpg';
-import Gta from '../Assets/images/gta.jpg';
-import Watch from '../Assets/images/wd.png';
-import Val from '../Assets/images/valo.jpg';
-import Dot from '../Assets/images/dota.jpg';
-import Fall from '../Assets/images/fall.jpg';
-import Man1 from '../Assets/images/man3.jpg';
-import Man2 from '../Assets/images/man4.jpg';
-import Man3 from '../Assets/images/man5.jpg';
+import Man1 from '../../Assets/images/man3.jpg';
+import Man2 from '../../Assets/images/man4.jpg';
+import Man3 from '../../Assets/images/man5.jpg';
 //IMPORT VIDEO
-import BG from '../Assets/video/bgmain.mp4';
+import BG from '../../Assets/video/bgmain.mp4';
 
 
 function HeroLandingPage() {
@@ -116,41 +111,7 @@ function HeroLandingPage() {
         </div>
       </div>
       {/* 3rd page */}
-      <div className='container-fluid bg-white pt-5 px-5'>
-        <div className='row px-5'>
-          <div className='col our-text'>
-            <h1>OUR GAMES</h1>
-            <p>There are many variations of the games you can played.</p>
-          </div>
-        </div>
-        <div className='row px-5 mb-4'>
-          <div className='col-lg-4'>
-            <img src={Gta} class="img-fluid" alt="game" />
-          </div>
-          <div className='col-lg-4'>
-            <img src={Fall} class="img-fluid" alt="game" />
-          </div>
-          <div className='col-lg-4'>
-            <img src={Dot} class="img-fluid" alt="game" />
-          </div>
-        </div>
-        <div className='row px-5 mb-3'>
-          <div className='col-lg-4'>
-            <img src={Watch} class="img-fluid" alt="game" />
-          </div>
-          <div className='col-lg-4'>
-            <img src={Val} class="img-fluid" alt="game" />
-          </div>
-          <div className='col-lg-4'>
-            <img src={Cyber} class="img-fluid" alt="game" />
-          </div>
-        </div>
-        <div className='row'>
-          <div className='text-center mt-2 mb-5'>
-            <Button className='btn-list' color='danger'>SEE ALL GAME LIST</Button>
-          </div>
-        </div>
-      </div>
+      <OurGames />
       {/* 4th page */}
       <div className='container-fluid py-5 bg'>
         <div className='row py-5 px-5 text-center'>

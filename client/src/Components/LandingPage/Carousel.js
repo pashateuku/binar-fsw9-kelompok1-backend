@@ -2,11 +2,11 @@ import React from 'react';
 //IMPORT REACTSTRAP COMPONENTS
 import { Button } from 'reactstrap';
 //IMPORT LOGO IMAGES
-import Cyber from '../Assets/images/cyber.jpg';
-import Gta from '../Assets/images/gta.jpg';
-import Watch from '../Assets/images/wd.png';
+import Cyber from '../../Assets/images/cyber.jpg';
+import Gta from '../../Assets/images/gta.jpg';
+import Watch from '../../Assets/images/wd.png';
 //IMPORT GLOBAL STYLING
-import '../Assets/css/Carousel.css'
+import '../../Assets/css/Carousel.css'
 
 function Carousel() {
     return (

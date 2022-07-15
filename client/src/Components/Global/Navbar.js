@@ -1,8 +1,8 @@
 import React from 'react';
 //IMPORT LOGO IMAGES
-import NavbarLogo from '../Assets/images/logoteamone.png';
+import NavbarLogo from '../../Assets/images/logoteamone.png';
 //IMPORT GLOBAL STYLING
-import '../Assets/css/Navbar.css';
+import '../../Assets/css/Navbar.css';
 
 function Navbar() {
   return (

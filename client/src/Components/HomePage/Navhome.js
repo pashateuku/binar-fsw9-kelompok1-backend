@@ -1,10 +1,10 @@
 import React from 'react'
 //IMPORT LOGO IMAGES
-import NavbarLogo from '../Assets/images/logoteamone.png';
+import NavbarLogo from '../../Assets/images/logoteamone.png';
 //IMPORT ICONS
 import { FaUserAlt, FaSignOutAlt } from 'react-icons/fa'
 //IMPORT GLOBAL STYLING
-import '../Assets/css/NavHome.css';
+import '../../Assets/css/NavHome.css';
 
 function Navhome() {
     return (
@@ -13,7 +13,7 @@ function Navhome() {
                 <div className='container-fluid'>
                     <div className='col-3'>
                         {/* logo navbar */}
-                        <a className='navbar-brand' href='/'>
+                        <a className='navbar-brand' href='/home'>
                             <img className='logo' src={NavbarLogo} alt="logo" />
                             <h4 className='navbar-text'>TEAM<span> ONE</span></h4>
                         </a>
@@ -23,7 +23,7 @@ function Navhome() {
                         <div className='collapse navbar-collapse list-text' id='navbarSupportedContent'>
                             <ul className="navbar-nav m-auto mb-lg-0">
                                 <li className="nav-item mx-3">
-                                    <a className="nav-link active" aria-current="page" href="/">HOME</a>
+                                    <a className="nav-link active" aria-current="page" href="/home">HOME</a>
                                 </li>
                                 <li className="nav-item mx-3">
                                     <a className="nav-link" href="/">LIST GAME</a>

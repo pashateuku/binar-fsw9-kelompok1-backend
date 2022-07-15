@@ -1,6 +1,6 @@
 import React from 'react';
 //IMPORT GLOBAL STYLING
-import '../Assets/css/RegisterForm.css';
+import '../../Assets/css/RegisterForm.css';
 
 function FormRegister() {
     return (

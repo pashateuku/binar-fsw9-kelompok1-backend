@@ -1,8 +1,8 @@
 import React from 'react';
 //IMPORT COMPONENTS
-import Navbar from '../Components/Navbar';
-import FormLogin from '../Components/FormLogin';
-import Footer from '../Components/Footer'
+import Navbar from '../Components/Global/Navbar';
+import FormLogin from '../Components/LoginPage/FormLogin';
+import Footer from '../Components/Global/Footer'
 //IMPORT IMAGE
 import Watch from '../Assets/images/wd.png';
 //IMPORT GLOBAL STYLING

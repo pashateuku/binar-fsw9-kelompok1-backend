@@ -1,8 +1,8 @@
 import React from 'react';
 //IMPORT LOGO IMAGES
-import NavbarLogo from '../Assets/images/logoteamone.png';
+import NavbarLogo from '../../Assets/images/logoteamone.png';
 //IMPORT GLOBAL STYLING
-import '../Assets/css/Footer.css';
+import '../../Assets/css/Footer.css';
 //IMPORT ICONS
 import { BsInstagram, BsYoutube, BsFacebook } from 'react-icons/bs';
 import { FaTiktok } from 'react-icons/fa';

@@ -1,6 +1,6 @@
 import React from 'react';
 //IMPORT GLOBAL STYLING
-import '../Assets/css/LoginForm.css';
+import '../../Assets/css/LoginForm.css';
 
 function FormLogin() {
     return (
