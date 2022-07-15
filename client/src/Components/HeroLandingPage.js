@@ -18,13 +18,12 @@ import Man1 from '../Assets/images/man3.jpg';
 import Man2 from '../Assets/images/man4.jpg';
 import Man3 from '../Assets/images/man5.jpg';
 //IMPORT VIDEO
-import BG from '../Assets/video/bg.mp4';
+import BG from '../Assets/video/bgmain.mp4';
 
 
 function HeroLandingPage() {
   return (
     <>
-      <h1>HALOOO</h1>
       {/* 1st page */}
       <div className='container-fluid'>
         <video autoPlay loop playsInline className='back-video'>
