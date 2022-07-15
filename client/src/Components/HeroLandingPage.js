@@ -24,6 +24,7 @@ import BG from '../Assets/video/bg.mp4';
 function HeroLandingPage() {
   return (
     <>
+      <h1>HALOOO</h1>
       {/* 1st page */}
       <div className='container-fluid'>
         <video autoPlay loop playsInline className='back-video'>
