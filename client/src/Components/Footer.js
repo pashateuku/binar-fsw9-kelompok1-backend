@@ -22,7 +22,7 @@ function Footer() {
             </div>
             <div className='col-md-4 px-5 my-3'>
               <ul className='socials'>
-                <li><a className='tik' href='/'><FaTiktok /></a></li>
+                <li><a className='tik' href='https://www.tiktok.com/'><FaTiktok /></a></li>
                 <li><a className='ig' href='https://www.instagram.com/'><BsInstagram /></a></li>
                 <li><a className='yt' href='https://www.youtube.com/'><BsYoutube /></a></li>
                 <li><a className='fb' href='https://www.facebook.com/'><BsFacebook /></a></li>
