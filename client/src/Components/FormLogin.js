@@ -6,7 +6,7 @@ function FormLogin() {
     return (
         <>
             <div className='form-content-right radius'>
-                <form className='form'>
+                <form action='/login' method='post' className='form'>
                     <h1>Login your account by filling out the information below.</h1>
                     <div className='form-inputs'>
                         <label htmlFor='username' className='form-label'>

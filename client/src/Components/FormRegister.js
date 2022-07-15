@@ -6,7 +6,7 @@ function FormRegister() {
     return (
         <>
             <div className='form-content-right'>
-                <form className='form'>
+                <form action='/register' method='post' className='form'>
                     <h1>Create your account by filling out the information below.</h1>
                     <div className='form-inputs'>
                         <label htmlFor='email' className='form-label'>
