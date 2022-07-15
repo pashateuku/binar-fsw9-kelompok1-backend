@@ -19,7 +19,8 @@ function FormLogin() {
             });
             alert(result.data.message);
             localStorage.setItem('isAuthenticated', true);
-        } catch (err) {
+        }
+        catch (err) {
             alert(err.toString());
         }
     }
