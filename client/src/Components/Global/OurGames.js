@@ -2,7 +2,7 @@ import React from 'react'
 //IMPORT REACTSTRAP COMPONENTS
 import { Button } from 'reactstrap';
 //IMPORT GLOBAL STYLING
-import '../../Assets/css/LandingPage.css'
+import '../../Assets/css/OurGames.css'
 //IMPORT LOGO IMAGES
 import Cyber from '../../Assets/images/cyber.jpg';
 import Gta from '../../Assets/images/gta.jpg';
@@ -22,7 +22,7 @@ function OurGames() {
                     </div>
                 </div>
                 <div className='row px-5 mb-4'>
-                    <div className='col-lg-4'>
+                    <div className='col-lg-4 box'>
                         <img src={Gta} class="img-fluid" alt="game" />
                     </div>
                     <div className='col-lg-4'>
@@ -49,7 +49,6 @@ function OurGames() {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }
