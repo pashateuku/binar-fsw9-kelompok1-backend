@@ -8,4 +8,4 @@ app.use(express.json());
 
 app.use(router);
 
-app.listen(port, () => console.log(`Server nyala di port ${port}, Listening on http://localhost:${port}`));
+app.listen(port, () => console.log(`Server menyala pada port ${port}, url: http://localhost:${port}`));
