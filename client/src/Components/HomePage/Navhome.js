@@ -19,23 +19,6 @@ function Navhome() {
                         </a>
                     </div>
                     <div className='col-6'>
-                        {/* navbar list */}
-                        <div className='collapse navbar-collapse list-text' id='navbarSupportedContent'>
-                            <ul className="navbar-nav m-auto mb-lg-0">
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link active" aria-current="page" href="/home">HOME</a>
-                                </li>
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link" href="/">LIST GAME</a>
-                                </li>
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link" href="/">LEADERBOARD</a>
-                                </li>
-                                <li className="nav-item mx-3">
-                                    <a className="nav-link" href="/">SUPPORT</a>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                     {/* button logout */}
                     <div className='col-3'>
