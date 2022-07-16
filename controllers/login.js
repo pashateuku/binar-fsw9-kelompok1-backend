@@ -1,7 +1,10 @@
 const {user} = require('../models');
 
+// import jwt
+const jwt = require('jsonwebtoken');
+
 //import jwt config
-const jwt = require('../config/jwt'); 
+const jwtConfig = require('../config/jwt'); 
 
 const login = async (req,res)=>{
     try {
@@ -21,8 +24,16 @@ const login = async (req,res)=>{
             })
         };
 
+        const tokenPayload = {
+            id: data.id,
+            username: data.username,
+            email: data.username
+        }
+
+        const token = jwt.sign(tokenPayload,jwtConfig.JWT_SECRET);
+
         return res.status(200)
-        .json({message:"anda berhasil login"})
+        .json({message:"anda berhasil login",token});
     } catch (error) {
         
     }
