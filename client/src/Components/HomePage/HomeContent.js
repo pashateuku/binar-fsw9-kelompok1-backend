@@ -1,15 +1,20 @@
 import React from 'react';
-//IMPORT GLOBAL STYLING
-import '../../Assets/css/HomeContent.css'
 //IMPORT COMPONENTS PAGES
-import OurGames from '../Global/OurGames';
+import Sidebar from '../HomePage/Sidebar';
 
 function HomeContent() {
     return (
         <>
-            <div className='container-fluid bg-light'>
+            <div className='container-fluid bg-light pb'>
                 <div className='row'>
-                    <OurGames />
+                    <div className='col-2'>
+                        <Sidebar />
+                    </div>
+                    <div className='col-10'>
+                        <h1>INI HALAMAN GAME YANG DI KLIK</h1>
+                    </div>
+
+
                 </div>
             </div>
         </>

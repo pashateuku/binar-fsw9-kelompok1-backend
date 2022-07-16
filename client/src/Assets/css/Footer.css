@@ -75,3 +75,11 @@ footer {
 .fb:hover {
     color: #1877f2;
 }
+
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
