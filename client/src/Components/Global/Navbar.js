@@ -24,7 +24,7 @@ function Navbar() {
                   <a className="nav-link active" aria-current="page" href="/">HOME</a>
                 </li>
                 <li className="nav-item mx-3">
-                  <a className="nav-link" href="/">LIST GAME</a>
+                  <a className="nav-link" href="/list-game">LIST GAME</a>
                 </li>
                 <li className="nav-item mx-3">
                   <a className="nav-link" href="/">LEADERBOARD</a>

@@ -4,7 +4,7 @@ import Navbar from '../Components/Global/Navbar';
 import FormRegister from '../Components/RegisterPage/FormRegister';
 import Footer from '../Components/Global/Footer'
 //IMPORT IMAGE
-import Watch from '../Assets/images/wd.png';
+import bg from '../Assets/images/loregbg.png';
 //IMPORT GLOBAL STYLING
 import '../Assets/css/RegisterForm.css';
 
@@ -18,7 +18,7 @@ function Register() {
                         <div className='form-container'>
                             <FormRegister />
                             <div className='form-content-left'>
-                                <img src={Watch} alt="watch" className='form-img' />
+                                <img src={bg} alt="bg" className='form-img' />
                             </div>
                         </div>
                     </div>

@@ -8,6 +8,7 @@ import LandingPage from "./Pages/LandingPage";
 import LoginPage from "./Pages/Login";
 import RegisterPage from "./Pages/Register";
 import HomePage from "./Pages/HomePage";
+import Listgame from "./Pages/ListPage";
 //IMPORT BOOTSTRAP
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,6 +20,7 @@ root.render(
       <Route path="/login" element={<LoginPage />} />
       <Route path="/register" element={<RegisterPage />} />
       <Route path="/home" element={<HomePage />} />
+      <Route path="/list-game" element={<Listgame />} />
     </Routes>
   </BrowserRouter>
 );
