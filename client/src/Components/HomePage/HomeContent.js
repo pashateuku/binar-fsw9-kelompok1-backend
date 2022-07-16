@@ -1,8 +1,9 @@
 import React from 'react';
 //IMPORT COMPONENTS PAGES
-import Sidebar from '../HomePage/Sidebar';
+import Sidebar from '../../Components/HomePage/Sidebar';
 
 function HomeContent() {
+
     return (
         <>
             <div className='container-fluid bg-light pb'>
@@ -11,10 +12,7 @@ function HomeContent() {
                         <Sidebar />
                     </div>
                     <div className='col-10'>
-                        <h1>INI HALAMAN GAME YANG DI KLIK</h1>
                     </div>
-
-
                 </div>
             </div>
         </>

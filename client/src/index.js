@@ -10,6 +10,8 @@ import RegisterPage from "./Pages/Register";
 import HomePage from "./Pages/HomePage";
 import Listgame from "./Pages/ListPage";
 import Leaderboard from "./Pages/Leaderboard";
+import Gta from '../../client/src/Components/Content/Gta';
+import Valo from '../../client/src/Components/Content/Valo';
 //IMPORT BOOTSTRAP
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -23,6 +25,8 @@ root.render(
       <Route path="/home" element={<HomePage />} />
       <Route path="/list-game" element={<Listgame />} />
       <Route path="/leaderboard" element={<Leaderboard />} />
+      <Route path="/home/gta" element={<Gta />} />
+      <Route path="/home/valo" element={<Valo />} />
     </Routes>
   </BrowserRouter>
 );

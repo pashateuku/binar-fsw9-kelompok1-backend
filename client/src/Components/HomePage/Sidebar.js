@@ -10,12 +10,12 @@ function Sidebar() {
             </div>
             <div className='row'>
                 <div className='sidebar'>
-                    <a href='/' className='menu-item'><li>GTA 5</li></a>
-                    <a href='/' className='menu-item'><li>Fall Guys</li></a>
-                    <a href='/' className='menu-item'><li>Dota 2</li></a>
-                    <a href='/' className='menu-item'><li>Watch Dogs</li></a>
-                    <a href='/' className='menu-item'><li>Valorant</li></a>
-                    <a href='/' className='menu-item'><li>Cyberpunk</li></a>
+                    <a href='/'><li>Gta</li></a>
+                    <a href='/'><li>Fall Guys</li></a>
+                    <a href='/'><li>Dota 2</li></a>
+                    <a href='/'><li>Watch Dogs</li></a>
+                    <a href='/'><li>Valorant</li></a>
+                    <a href='/'><li>Cyberpunk</li></a>
                 </div>
             </div>
         </>
