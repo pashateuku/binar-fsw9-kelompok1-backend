@@ -12,6 +12,7 @@ function HomeContent() {
                         <Sidebar />
                     </div>
                     <div className='col-10'>
+                        <h1>SUSAH CYOKKK</h1>
                     </div>
                 </div>
             </div>
