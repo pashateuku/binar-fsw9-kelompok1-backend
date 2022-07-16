@@ -1,9 +1,9 @@
-const db = require('../models');
+const {user} = require('../models');
 
 const register = async (req,res)=>{
 
     try {
-        const data = await db.user.create({
+        const data = user.create({
             username: req.body.username,
             email: req.body.email,
             password: req.body.password
@@ -11,7 +11,8 @@ const register = async (req,res)=>{
 
         return res.status(200)
             .json({
-                message: "anda berhasil register"
+                message: "anda berhasil register",
+                data: data
             });
 
     } catch (error) {
@@ -22,18 +23,5 @@ const register = async (req,res)=>{
     
 }
 
-// function register(req,res){
 
-//     db.user.create({
-//         username: req.body.username,
-//         email: req.body.email,
-//         password: req.body.password
-//     })
-//     .then(()=>{
-//      return   res.status(200).json({message:"kamu berhasil login"});
-//     });
-
-
-// }
-
-module.exports = {register};
+module.exports = register;
