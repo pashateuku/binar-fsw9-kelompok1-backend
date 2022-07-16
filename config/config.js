@@ -5,7 +5,8 @@ module.exports = {
     "password": process.env.DB_DEV_PASSWORD || "postgres",
     "database": process.env.DB_DEV_NAME || "teamone_chap9",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "port" : "5433"
   },
   "test": {
     "username": "postgres",
