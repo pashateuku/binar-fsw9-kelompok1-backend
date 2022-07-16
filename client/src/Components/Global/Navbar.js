@@ -27,7 +27,7 @@ function Navbar() {
                   <a className="nav-link" href="/list-game">LIST GAME</a>
                 </li>
                 <li className="nav-item mx-3">
-                  <a className="nav-link" href="/">LEADERBOARD</a>
+                  <a className="nav-link" href="/leaderboard">LEADERBOARD</a>
                 </li>
                 <li className="nav-item mx-3">
                   <a className="nav-link" href="/">SUPPORT</a>

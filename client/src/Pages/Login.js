@@ -2,7 +2,7 @@ import React from 'react';
 //IMPORT COMPONENTS
 import Navbar from '../Components/Global/Navbar';
 import FormLogin from '../Components/LoginPage/FormLogin';
-import Footer from '../Components/Global/Footer'
+import Footer from '../Components/Global/Footer';
 //IMPORT IMAGE
 import bg from '../Assets/images/loregbg.png';
 //IMPORT GLOBAL STYLING

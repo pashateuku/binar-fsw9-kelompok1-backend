@@ -42,10 +42,10 @@ function Navhome() {
                         <div className='collapse navbar-collapse list-text justify-content-end' id='navbarSupportedContent'>
                             <ul class="navbar-nav">
                                 <li class="nav-item mx-3">
-                                    <a class="nav-link" href="/register"><FaUserAlt className='icon-profile' /> PROFILE</a>
+                                    <a class="nav-link" href="/"><FaUserAlt className='icon-profile' /> PROFILE</a>
                                 </li>
                                 <li class="nav-item mx-3">
-                                    <a class="nav-link" href="/login"><FaSignOutAlt className='icon-logout' /> LOGOUT</a>
+                                    <a class="nav-link" href="/"><FaSignOutAlt className='icon-logout' /> LOGOUT</a>
                                 </li>
                             </ul>
                         </div>
