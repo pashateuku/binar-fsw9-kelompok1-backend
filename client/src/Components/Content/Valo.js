@@ -1,10 +1,11 @@
 import React from 'react'
+import Val from '../../Assets/images/valo.jpg';
 
-function Valo() {
+const Valo = () => {
     return (
         <>
             <div>Valo</div>
-            <h2>HALOO</h2>
+            <img src={Val} alt='img' />
         </>
     )
 }

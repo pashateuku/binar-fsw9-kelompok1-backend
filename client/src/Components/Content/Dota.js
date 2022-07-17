@@ -1,8 +1,12 @@
 import React from 'react'
+import Dot from '../../Assets/images/dota.jpg';
 
-function Dota() {
+const Dota = () => {
     return (
-        <div>Dota</div>
+        <>
+            <div>Dota</div>
+            <img src={Dot} alt='img' />
+        </>
     )
 }
 

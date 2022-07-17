@@ -1,12 +1,13 @@
 import React from 'react'
+import GTA5 from '../../Assets/images/gta.jpg';
 
-function Gta() {
+const Gta = () => {
     return (
         <>
-            <div>Gta</div>
-            <h2>HALOO GTA</h2>
+            <div>GTA</div>
+            <img src={GTA5} alt='img' />
         </>
     )
 }
 
-export default Gta;
+export default Gta
