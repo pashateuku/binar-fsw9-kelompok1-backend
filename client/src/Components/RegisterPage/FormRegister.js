@@ -1,6 +1,7 @@
 //IMPORT AXIOS
 import axios from 'axios';
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 //IMPORT GLOBAL STYLING
 import '../../Assets/css/RegisterForm.css';
 
@@ -50,7 +51,7 @@ function FormRegister() {
                         <input id='password' type="password" name="password" className='form-input' placeholder='Enter your password' onChange={(e) => setPassword(e.target.value)} />
                     </div>
                     <button className='form-input-btn' type='submit'>Submit</button>
-                    <p className='form-input-login'>Already have an account? Login <a href='/login'>here</a></p>
+                    <p className='form-input-login'>Already have an account? Login <NavLink to='/login'>here</NavLink></p>
                 </form>
             </div>
         </>

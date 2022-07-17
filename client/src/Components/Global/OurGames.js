@@ -1,6 +1,7 @@
 import React from 'react'
 //IMPORT REACTSTRAP COMPONENTS
 import { Button } from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 //IMPORT GLOBAL STYLING
 import '../../Assets/css/OurGames.css'
 //IMPORT LOGO IMAGES
@@ -45,7 +46,7 @@ function OurGames() {
                 </div>
                 <div className='row'>
                     <div className='text-center mt-2 mb-5'>
-                        <a href='/list-game'><Button className='btn-list' color='danger'>SEE ALL GAME LIST</Button></a>
+                        <NavLink to='./list-game'><Button className='btn-list' color='danger'>SEE ALL GAME LIST</Button></NavLink>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 //IMPORT REACTSTRAP COMPONENTS
 import { Button } from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 //IMPORT GLOBAL STYLING
 import '../../Assets/css/LandingPage.css'
 //IMPORT COMPONENTS PAGE
@@ -31,7 +32,7 @@ function HeroLandingPage() {
               <p>Play various games from Team One Project and enjoy the fun. <br></br>Hurry up register your account and play the game</p>
             </div>
             <div className='button-main text-center'>
-              <a href='/register'><Button color='warning' outline className='button-reg'>REGISTER NOW</Button></a>
+              <NavLink to='/register'><Button color='warning' outline className='button-reg'>REGISTER NOW</Button></NavLink>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 //IMPORT AXIOS
 import axios from 'axios';
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 //IMPORT GLOBAL STYLING
 import '../../Assets/css/LoginForm.css';
 
@@ -44,7 +45,7 @@ function FormLogin() {
                         <div className='forgot'><a href='/' className='forgot'>Forgot the password</a></div>
                     </div>
                     <button className='form-input-btn' type='submit'>Login</button>
-                    <p className='form-input-login'>Dont have an account? Register <a href='/register'>here</a></p>
+                    <p className='form-input-login'>Dont have an account? Register <NavLink to='/register'>here</NavLink></p>
                 </form>
             </div>
         </>
