@@ -13,6 +13,9 @@ import Leaderboard from "./Pages/Leaderboard";
 import DotaPage from "./Components/Content/Dota";
 import GtaPage from "./Components/Content/Gta";
 import ValoPage from "./Components/Content/Valo";
+import CyberPage from "./Components/Content/Cyberpunk";
+import WatchDogPage from "./Components/Content/Watchdogs";
+import FallguysPage from "./Components/Content/Fallguys";
 //IMPORT BOOTSTRAP
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -28,7 +31,10 @@ root.render(
       <Route path="/leaderboard" element={<Leaderboard />} />
       <Route path="/game/dota" element={<DotaPage />} />
       <Route path="/game/gta" element={<GtaPage />} />
-      <Route path="/game/Valo" element={<ValoPage />} />
+      <Route path="/game/valorant" element={<ValoPage />} />
+      <Route path="/game/cyber-punk" element={<CyberPage />} />
+      <Route path="/game/fall-guys" element={<FallguysPage />} />
+      <Route path="/game/watch-dogs" element={<WatchDogPage />} />
     </Routes>
   </BrowserRouter>
 );

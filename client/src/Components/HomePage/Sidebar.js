@@ -10,11 +10,11 @@ function Sidebar() {
                     <div className='col-12 list-menu'>
                         <NavLink to='/home'><li>Home</li></NavLink>
                         <NavLink to='/game/gta'><li>Gta 5</li></NavLink>
-                        <a href='/'><li>Fall Guys</li></a>
+                        <NavLink to='/game/fall-guys'><li>Fall Guys</li></NavLink>
                         <NavLink to='/game/dota'><li>Dota 2</li></NavLink>
-                        <a href='/'><li>Watch Dogs</li></a>
-                        <NavLink to='/game/valo'><li>Valorant</li></NavLink>
-                        <a href='/'><li>Cyberpunk</li></a>
+                        <NavLink to='/game/watch-dogs'><li>Watch Dogs</li></NavLink>
+                        <NavLink to='/game/valorant'><li>Valorant</li></NavLink>
+                        <NavLink to='/game/cyber-punk'><li>Cyberpunk</li></NavLink>
                     </div>
                 </div>
             </div>
