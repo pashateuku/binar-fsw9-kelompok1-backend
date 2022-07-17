@@ -1,58 +1,6 @@
 /* FONT STYLING */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
 
-body {
-    background-color: #212529 !important;
-}
-
-.navbar {
-    font-family: 'Josefin Sans', sans-serif;
-    height: 10vh !important;
-    background-color: #212529D9 !important;
-}
-
-.navbar-brand {
-    margin-right: 0 !important;
-    margin-left: 3rem;
-    text-align: center !important;
-}
-
-.logo {
-    width: 3rem;
-    height: 3rem;
-    text-align: center !important;
-    margin-top: 12px;
-}
-
-.navbar-text {
-    text-decoration: none;
-    color: white !important;
-    font-size: 16px;
-    display: flex;
-    margin-left: 2rem;
-}
-
-span {
-    color: orange !important;
-}
-
-.list-text {
-    font-size: 1.5vh;
-}
-
-.nav-link {
-    color: white !important;
-}
-
-.nav-link:hover {
-    color: orange !important;
-}
-
-.reg-button {
-    width: 9vw;
-    height: 4vh;
-}
-
 .icon-profile {
     color: orange !important;
     padding-bottom: 5px;

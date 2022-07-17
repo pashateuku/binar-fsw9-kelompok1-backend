@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 //IMPORT LOGO IMAGES
 import NavbarLogo from '../../Assets/images/logoteamone.png';
 //IMPORT GLOBAL STYLING
@@ -11,7 +12,7 @@ function Navbar() {
         <div className='container-fluid'>
           <div className='col-3'>
             {/* logo navbar */}
-            <a className='navbar-brand' href='/'>
+            <a href='/' className='navbar-brand'>
               <img className='logo' src={NavbarLogo} alt="logo" />
               <h4 className='navbar-text'>TEAM<span> ONE</span></h4>
             </a>
@@ -20,17 +21,17 @@ function Navbar() {
             {/* navbar list */}
             <div className='collapse navbar-collapse list-text' id='navbarSupportedContent'>
               <ul className="navbar-nav m-auto mb-lg-0">
-                <li className="nav-item mx-3">
-                  <a className="nav-link active" aria-current="page" href="/">HOME</a>
+                <li className="mx-3 text-nav">
+                  <NavLink exact to="/" activeClassName="active">HOME</NavLink>
                 </li>
-                <li className="nav-item mx-3">
-                  <a className="nav-link" href="/list-game">LIST GAME</a>
+                <li className="mx-3">
+                  <NavLink to="/list-game" activeClassName="active">LIST GAME</NavLink>
                 </li>
-                <li className="nav-item mx-3">
-                  <a className="nav-link" href="/leaderboard">LEADERBOARD</a>
+                <li className="mx-3">
+                  <NavLink to="/leaderboard" activeClassName="active">LEADERBOARD</NavLink>
                 </li>
-                <li className="nav-item mx-3">
-                  <a className="nav-link" href="/">SUPPORT</a>
+                <li className="mx-3">
+                  <NavLink to="/support" activeClassName="active">SUPPORT</NavLink>
                 </li>
               </ul>
             </div>
@@ -40,10 +41,10 @@ function Navbar() {
             <div className='collapse navbar-collapse list-text justify-content-end' id='navbarSupportedContent'>
               <ul class="navbar-nav">
                 <li class="nav-item mx-3">
-                  <a class="nav-link" href="/register">REGISTER</a>
+                  <NavLink to="/register" activeClassName="active">REGISTER</NavLink>
                 </li>
                 <li class="nav-item mx-3">
-                  <a class="nav-link" href="/login">LOGIN</a>
+                  <NavLink to="/login" activeClassName="active">LOGIN</NavLink>
                 </li>
               </ul>
             </div>

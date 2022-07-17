@@ -34,12 +34,22 @@ body {
     margin-left: 2rem;
 }
 
+
 span {
     color: orange !important;
 }
 
 .list-text {
     font-size: 1.5vh;
+}
+
+.list-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.list-text a:hover {
+    color: orange;
 }
 
 .nav-link {
@@ -53,4 +63,10 @@ span {
 .reg-button {
     width: 9vw;
     height: 4vh;
+}
+
+.active {
+    font-weight: bold;
+    color: orange !important;
+    text-decoration: underline !important;
 }

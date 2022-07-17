@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 //IMPORT LOGO IMAGES
 import NavbarLogo from '../../Assets/images/logoteamone.png';
 //IMPORT ICONS
@@ -13,10 +14,10 @@ function Navhome() {
                 <div className='container-fluid'>
                     <div className='col-3'>
                         {/* logo navbar */}
-                        <a className='navbar-brand' href='/home'>
+                        <NavLink className='navbar-brand' exact to='/home'>
                             <img className='logo' src={NavbarLogo} alt="logo" />
                             <h4 className='navbar-text'>TEAM<span> ONE</span></h4>
-                        </a>
+                        </NavLink>
                     </div>
                     <div className='col-6'>
                     </div>
