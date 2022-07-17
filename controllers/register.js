@@ -9,7 +9,7 @@ const register = async (req,res)=>{
             // buat sandi encrypted dengan bcrypt
         const encryptedPassword = await bcrypt.hash(req.body.password, saltRound);
 
-        const data = user.create({
+        const data = await user.create({
             username: req.body.username,
             email: req.body.email,
             password: encryptedPassword

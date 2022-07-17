@@ -1,4 +1,5 @@
 const {user} = require('../models');
+const bcrypt = require("bcrypt");
 
 // import jwt
 const jwt = require('jsonwebtoken');
@@ -8,22 +9,17 @@ const jwtConfig = require('../config/jwt');
 
 const login = async (req,res)=>{
     try {
-        const data = user.findOne({
+        const data = await user.findOne({
             where : {username: req.body.username}
         });
     
-        if(!data.email== req.body.email || data.username == req.body.username){
-            return res.status(400)
-            .json({
-                message: "username atau email yang anda masukkan salah"
-            });
-        } else if (!data.password==req.body.password){
-            return res.status(400)
-            .json({
-                message: "password yang anda masukkan salah"
-            })
-        };
-
+       
+        try {
+           const isPasswordMatch = await bcrypt.compare(req.body.password, data.password);
+        } catch (error) {
+            return res.status(500).json({message:"login gagal, password salah"});
+        }
+        
         const tokenPayload = {
             id: data.id,
             username: data.username,
@@ -31,11 +27,13 @@ const login = async (req,res)=>{
         }
 
         const token = jwt.sign(tokenPayload,jwtConfig.JWT_SECRET);
+        const datapas = !data.password==req.body.password;
 
         return res.status(200)
-        .json({message:"anda berhasil login",token});
+        .json({message:"anda berhasil login", data:datapas,token });
+
     } catch (error) {
-        
+        return res.status(400).json({message: "username salah",})
     }
 }
 
