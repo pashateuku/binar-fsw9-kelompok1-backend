@@ -6,9 +6,9 @@ function Leaderboard() {
     return (
         <>
             <div className='container-fluid bg-light'>
-                <div className='row py-5'>
+                <div className='row pt-5 pb-3'>
                     <div className='col-12 text-center'>
-                        <h1>TOP PLAYERS </h1>
+                        <h1 className='fw-bold'>TOP <p className='text-players'>PLAYERS</p></h1>
                     </div>
                 </div>
                 <div className='row mb-3 mx-5'>

@@ -8,13 +8,13 @@ function Sidebar() {
             <div className='container-fluid bg-light'>
                 <div className='row'>
                     <div className='col-12 list-menu'>
-                        <NavLink to='/home'><li>Home</li></NavLink>
-                        <NavLink to='/game/gta'><li>Gta 5</li></NavLink>
-                        <NavLink to='/game/fall-guys'><li>Fall Guys</li></NavLink>
-                        <NavLink to='/game/dota'><li>Dota 2</li></NavLink>
-                        <NavLink to='/game/watch-dogs'><li>Watch Dogs</li></NavLink>
-                        <NavLink to='/game/valorant'><li>Valorant</li></NavLink>
-                        <NavLink to='/game/cyber-punk'><li>Cyberpunk</li></NavLink>
+                        <NavLink to='/home'><li>HOME</li></NavLink>
+                        <NavLink to='/game/gta'><li>GTA V</li></NavLink>
+                        <NavLink to='/game/fall-guys'><li>FALLGUYS</li></NavLink>
+                        <NavLink to='/game/dota'><li>DOTA 2</li></NavLink>
+                        <NavLink to='/game/watch-dogs'><li>WATCHDOGS</li></NavLink>
+                        <NavLink to='/game/valorant'><li>VALORANT</li></NavLink>
+                        <NavLink to='/game/cyber-punk'><li>CYBERPUNK</li></NavLink>
                     </div>
                 </div>
             </div>

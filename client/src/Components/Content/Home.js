@@ -1,10 +1,10 @@
 import React from 'react'
+import ListGame from '../ListGame/Listgame';
 
 const Home = () => {
     return (
         <>
-            <div>Home</div>
-            <h2>Ini Home</h2>
+            <ListGame />
         </>
     )
 }
