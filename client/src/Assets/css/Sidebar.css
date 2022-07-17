@@ -1,38 +1,19 @@
-.sidebar {
-    position: relative;
+.list-menu {
+    list-style: none;
     display: flex;
-    flex-direction: column;
-    background-color: aqua;
+    justify-content: center;
 }
 
-.sidebar a {
+.list-menu li {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.list-menu a {
     text-decoration: none;
     color: black;
 }
 
-.sidebar li {
-    list-style: none;
-    padding: 1rem 2rem;
-    display: flex;
-}
-
-.sidebar li:hover {
-    background-color: rgb(211, 209, 209);
-    color: red;
-    transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-}
-
-.home-title h5 {
-    color: red;
-    font-weight: 700;
-}
-
-.list-sidebar {
-    display: flex;
-    justify-content: start;
-    align-items: center;
+.list-menu a:hover {
+    color: red
 }

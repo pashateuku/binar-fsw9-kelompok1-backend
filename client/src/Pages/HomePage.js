@@ -1,14 +1,14 @@
 import React from 'react';
 //IMPORT COMPONENTS
 import Navhome from '../Components/HomePage/Navhome';
-import HomeContent from '../Components/HomePage/HomeContent';
+import Sidebar from '../Components/HomePage/Sidebar';
 import Footer from "../Components/Global/Footer";
 
 function HomePage() {
     return (
         <>
             <Navhome />
-            <HomeContent />
+            <Sidebar />
             <Footer />
         </>
     )
