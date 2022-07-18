@@ -11,6 +11,7 @@ import HomePage from "./Pages/HomePage";
 import Listgame from "./Pages/ListPage";
 import ProfilePage from "./Pages/ProfilePage";
 import Leaderboard from "./Pages/Leaderboard";
+import SupportPage from "./Pages/Support";
 import DotaPage from "./Components/Content/Dota";
 import GtaPage from "./Components/Content/Gta";
 import ValoPage from "./Components/Content/Valo";
@@ -28,6 +29,7 @@ root.render(
       <Route path="/login" element={<LoginPage />} />
       <Route path="/register" element={<RegisterPage />} />
       <Route path="/home" element={<HomePage />} />
+      <Route path="/support" element={<SupportPage />} />
       <Route path="/home/profile" element={<ProfilePage />} />
       <Route path="/list-game" element={<Listgame />} />
       <Route path="/leaderboard" element={<Leaderboard />} />
