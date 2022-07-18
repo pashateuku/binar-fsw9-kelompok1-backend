@@ -27,13 +27,21 @@
 }
 
 .card-custom:hover {
-    background-color: #df4759 !important;
+    background-color: #292b2c !important;
 }
 
 .card-custom:hover h5 {
-    background-color: #df4759
+    background-color: #292b2c
 }
 
 .card-custom:hover p {
-    background-color: #df4759
+    background-color: #292b2c
+}
+
+.btn-all-game {
+    background-color: #df4759 !important;
+}
+
+.btn-all-game:hover {
+    background-color: #292b2c !important;
 }
