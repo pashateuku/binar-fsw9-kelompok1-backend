@@ -11,7 +11,7 @@ import { FaTiktok } from 'react-icons/fa';
 function Footer() {
   return (
     <>
-      <footer className='footer'>
+      <footer className='footer mt-auto'>
         <div className='container-fluid'>
           <div className='row'>
             <div className='col-md-4 px-5 my-3 logo-area'>

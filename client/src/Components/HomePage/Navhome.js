@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 //IMPORT LOGO IMAGES
 import NavbarLogo from '../../Assets/images/logoteamone.png';
 //IMPORT ICONS
@@ -26,10 +27,10 @@ function Navhome() {
                             <div className='collapse navbar-collapse list-text justify-content-end' id='navbarSupportedContent'>
                                 <ul class="navbar-nav">
                                     <li class="nav-item mx-3">
-                                        <a class="nav-link" href="/"><FaUserAlt className='icon-profile' /> PROFILE</a>
+                                        <NavLink class="nav-link" to="/home/profile"><FaUserAlt className='icon-profile' /> PROFILE</NavLink>
                                     </li>
                                     <li class="nav-item mx-3">
-                                        <a class="nav-link" href="/"><FaSignOutAlt className='icon-logout' /> LOGOUT</a>
+                                        <NavLink class="nav-link" to="/"><FaSignOutAlt className='icon-logout' /> LOGOUT</NavLink>
                                     </li>
                                 </ul>
                             </div>
