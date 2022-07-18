@@ -5,7 +5,7 @@
 
 .accordion-button:not(.collapsed) {
     color: white !important;
-    background: #df4759 !important;
+    background: #292b2c !important;
 }
 
 .accordion-button:not(.collapsed)::after {
