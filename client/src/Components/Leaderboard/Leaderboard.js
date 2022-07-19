@@ -1,11 +1,12 @@
 import React from 'react';
+import Table from './Table';
 //IMPORT CSS
 import '../../Assets/css/Leaderboard.css';
 
 function Leaderboard() {
     return (
         <>
-            <div className='container-fluid bg-light'>
+            <div className='container-fluid bg-light pb'>
                 <div className='row pt-5 pb-3'>
                     <div className='col-12 text-center'>
                         <h1 className='fw-bold'>TOP <p className='text-players'>PLAYERS</p></h1>
@@ -21,39 +22,7 @@ function Leaderboard() {
                         </div>
                     </div>
                 </div>
-                <div className='container bg-light'>
-                    <div className='row pb mx-3'>
-                        <div className='col-md'>
-                            <table class="table">
-                                <thead class="table-dark text-center">
-                                    <tr>
-                                        <th>RANK</th>
-                                        <th>ID</th>
-                                        <th>USERNAME</th>
-                                        <th>EMAIL</th>
-                                        <th>POINT</th>
-                                    </tr>
-                                </thead>
-                                <tbody className='text-center'>
-                                    <tr className='text'>
-                                        <th>1</th>
-                                        <th>218</th>
-                                        <th>Dimasagung</th>
-                                        <th>dimas@gmail.com</th>
-                                        <th>500</th>
-                                    </tr>
-                                    <tr className='text'>
-                                        <th>2</th>
-                                        <th>198</th>
-                                        <th>Coping</th>
-                                        <th>coping@gmail.com</th>
-                                        <th>478</th>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
+                <Table />
             </div>
         </>
     )

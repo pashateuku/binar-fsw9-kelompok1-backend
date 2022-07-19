@@ -46,3 +46,7 @@
 .btn-all-game:hover {
     background-color: #292b2c !important;
 }
+
+#top-players {
+    color: orange !important;
+}

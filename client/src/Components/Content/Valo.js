@@ -6,6 +6,7 @@ import { NavLink } from 'react-router-dom';
 import Sidebar from '../../Components/HomePage/Sidebar';
 import Footer from '../../Components/Global/Footer';
 import Navhome from '../HomePage/Navhome';
+import Table from '../Leaderboard/Table';
 // IMPORT STYLING
 import '../../Assets/css/Content.css';
 
@@ -66,10 +67,16 @@ const Valo = () => {
                         </div>
                     </div>
                 </div>
-                <div className='row'>
+                <div className='row bg-light'>
                     <div className='text-center mt-2 mb-5'>
                         <NavLink to='./list-game'><Button className='btn-list btn-all-game'>SEE ALL GAME ACHIEVEMENT</Button></NavLink>
                     </div>
+                </div>
+                <div className='row pt-4 pb-5'>
+                    <div className='col text-center'>
+                        <h2 className='fw-bold'>TOP <span id='top-players' className='text-players'>PLAYERS</span></h2>
+                    </div>
+                    <Table />
                 </div>
             </div>
             <Footer />
