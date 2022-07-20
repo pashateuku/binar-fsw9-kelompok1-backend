@@ -16,7 +16,7 @@ function Carousel() {
                     <div className='col-5 px-5 hero-desc'>
                         <h1>TEAM <span>ONE</span> PRODUCTION</h1><hr />
                         <p>Are you ready for the unique game all the world ? prepare yourself and play the game</p>
-                        <a href='/'><Button color='danger'>PLAY NOW !</Button></a>
+                        <a href='/'><Button color='danger'>REGISTER NOW !</Button></a>
                     </div>
                     <div className='col-7 px-5'>
                         <div id="carousel-side" class="carousel slide" data-bs-ride="carousel">

@@ -4,7 +4,7 @@ import Navbar from '../Components/Global/Navbar';
 import FormLogin from '../Components/LoginPage/FormLogin';
 import Footer from '../Components/Global/Footer';
 //IMPORT IMAGE
-import bg from '../Assets/images/loregbg.png';
+import BG from '../Assets/images/BGIF.gif';
 //IMPORT GLOBAL STYLING
 import '../Assets/css/LoginForm.css';
 
@@ -17,7 +17,7 @@ function Login() {
                     <div className='col'>
                         <div className='form-container'>
                             <div className='form-content-left'>
-                                <img src={bg} alt="bg" className='form-img' />
+                                <img src={BG} alt="bg" className='form-img' />
                             </div>
                             <FormLogin />
                         </div>
