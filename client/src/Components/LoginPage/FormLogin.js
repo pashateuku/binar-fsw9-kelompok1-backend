@@ -24,8 +24,7 @@ function FormLogin() {
     }
         , [])
 
-    //HANDLE ON SUBMIT
-    //SUBMIT TO BACKEND
+    //HANDLE ON SUBMIT TO BACKEND
     const handleSubmit = async (e) => {
         e.preventDefault();
 
