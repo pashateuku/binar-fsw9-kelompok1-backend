@@ -1,19 +1,24 @@
 const {user} = require('../models');
+const bcrypt = require('bcrypt');
+
+const saltRound = Number(process.env.APP_HASH_ROUND) || 10;
 
 const register = async (req,res)=>{
 
     try {
-        const data = user.create({
+            // buat sandi encrypted dengan bcrypt
+        const encryptedPassword = await bcrypt.hash(req.body.password, saltRound);
+
+        const data = await user.create({
             username: req.body.username,
             email: req.body.email,
-            password: req.body.password
+            password: encryptedPassword
         });
 
         return res.status(200)
             .json({
-                message: "anda berhasil register",
-                data: data
-            });
+                message: "anda berhasil register"
+            })
 
     } catch (error) {
         
