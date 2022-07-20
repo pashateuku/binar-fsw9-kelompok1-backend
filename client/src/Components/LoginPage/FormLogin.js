@@ -2,6 +2,7 @@
 import axios from 'axios';
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 //IMPORT GLOBAL STYLING
 import '../../Assets/css/LoginForm.css';
 
@@ -9,6 +10,8 @@ function FormLogin() {
     //USESTATE FOR USERNAME AND PASSWORD
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
+
+    const navigate = useNavigate();
 
     //HANDLE ON SUBMIT TO BACKEND
     const handleSubmit = async (e) => {
@@ -21,6 +24,8 @@ function FormLogin() {
             });
             alert(result.data.message);
             localStorage.setItem('isAuthenticated', true);
+            navigate('/home')
+
         }
         catch (err) {
             alert(err.toString());

@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
 //IMPORT LOGO IMAGES
 import NavbarLogo from '../../Assets/images/logoteamone.png';
 //IMPORT ICONS
@@ -8,6 +9,13 @@ import { FaUserAlt, FaSignOutAlt } from 'react-icons/fa'
 import '../../Assets/css/NavHome.css';
 
 function Navhome() {
+    const navigate = useNavigate();
+    const handleLogout = async (e) => {
+        e.preventDefault();
+        localStorage.setItem('isAuthenticated', false);
+        navigate('/')
+    }
+
     return (
         <>
             <section>
@@ -30,7 +38,7 @@ function Navhome() {
                                         <NavLink class="nav-link" to="/home/profile"><FaUserAlt className='icon-profile' /> PROFILE</NavLink>
                                     </li>
                                     <li class="nav-item mx-3">
-                                        <NavLink class="nav-link" to="/"><FaSignOutAlt className='icon-logout' /> LOGOUT</NavLink>
+                                        <NavLink class="nav-link" to="/" onClick={handleLogout}><FaSignOutAlt className='icon-logout' /> LOGOUT</NavLink>
                                     </li>
                                 </ul>
                             </div>
