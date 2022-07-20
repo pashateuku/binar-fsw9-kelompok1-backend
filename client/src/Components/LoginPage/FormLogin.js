@@ -1,8 +1,7 @@
 //IMPORT AXIOS
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom';
 //IMPORT GLOBAL STYLING
 import '../../Assets/css/LoginForm.css';
 
@@ -10,19 +9,6 @@ function FormLogin() {
     //USESTATE FOR USERNAME AND PASSWORD
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const navigate = useNavigate();
-
-    //ISAUTHENTICATED
-    useEffect(() => {
-        const isAuthenticated = localStorage.getItem('isAuthenticated');
-
-        isAuthenticated ? alert('Login Successfully') : alert('Please Login First')
-
-        if (isAuthenticated) {
-            navigate('/home');
-        }
-    }
-        , [])
 
     //HANDLE ON SUBMIT TO BACKEND
     const handleSubmit = async (e) => {
