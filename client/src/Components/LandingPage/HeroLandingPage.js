@@ -14,7 +14,7 @@ import Man1 from '../../Assets/images/man3.jpg';
 import Man2 from '../../Assets/images/man4.jpg';
 import Man3 from '../../Assets/images/man5.jpg';
 //IMPORT VIDEO
-import BG from '../../Assets/video/bgmain.mp4';
+import BG from '../../Assets/video/BGVID.mp4';
 
 
 function HeroLandingPage() {
