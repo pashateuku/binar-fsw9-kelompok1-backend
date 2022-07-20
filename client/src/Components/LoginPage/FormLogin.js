@@ -12,19 +12,20 @@ function FormLogin() {
     const [password, setPassword] = useState('');
     const navigate = useNavigate();
 
-    //AUTHENTICATED
-    // useEffect(() => {
-    //     const isAuthenticated = localStorage.getItem('isAuthenticated');
+    //ISAUTHENTICATED
+    useEffect(() => {
+        const isAuthenticated = localStorage.getItem('isAuthenticated');
 
-    //     isAuthenticated ? alert('Login Successfully') : alert('Please Login First')
+        isAuthenticated ? alert('Login Successfully') : alert('Please Login First')
 
-    //     if (isAuthenticated) {
-    //         navigate('/home');
-    //     }
-    // }
-    // )
+        if (isAuthenticated) {
+            navigate('/home');
+        }
+    }
+        , [])
 
     //HANDLE ON SUBMIT
+    //SUBMIT TO BACKEND
     const handleSubmit = async (e) => {
         e.preventDefault();
 
