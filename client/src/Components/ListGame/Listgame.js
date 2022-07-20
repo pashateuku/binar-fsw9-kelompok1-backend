@@ -1,7 +1,7 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 //IMPORT REACTSTRAP COMPONENTS
 import { Button } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
 //IMPORT LOGO IMAGES
 import Cyber from '../../Assets/images/cyber.jpg';
 import Gta from '../../Assets/images/gta.jpg';
@@ -55,6 +55,11 @@ function Listgame() {
                     </div>
                     <div className='col-lg-4'>
                         <img src={apex} class="img-fluid" alt="game" />
+                    </div>
+                </div>
+                <div className='row'>
+                    <div className='text-center mt-2 mb-5'>
+                        <NavLink to='/home'><Button className='btn-list' color='danger'>SEE GAME DETAILS</Button></NavLink>
                     </div>
                 </div>
             </div>
