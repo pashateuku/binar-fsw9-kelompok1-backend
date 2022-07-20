@@ -17,9 +17,8 @@ const register = async (req,res)=>{
 
         return res.status(200)
             .json({
-                message: "anda berhasil register",
-                data: data
-            });
+                message: "anda berhasil register"
+            })
 
     } catch (error) {
         

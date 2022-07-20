@@ -29,8 +29,7 @@ const login = async (req,res)=>{
         const token = jwt.sign(tokenPayload,jwtConfig.JWT_SECRET);
         const datapas = !data.password==req.body.password;
 
-        return res.status(200)
-        .json({message:"anda berhasil login", data:datapas,token });
+        return res.status(200).redirect('http://localhost:4000')
 
     } catch (error) {
         return res.status(400).json({message: "username salah",})
