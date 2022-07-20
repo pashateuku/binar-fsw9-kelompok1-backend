@@ -20,6 +20,8 @@
     background-color: #939494;
     color: white;
     text-align: center;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .card-size {
@@ -35,6 +37,10 @@
 }
 
 .card-custom:hover p {
+    background-color: #292b2c
+}
+
+#icon-achievement:hover {
     background-color: #292b2c
 }
 
