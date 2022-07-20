@@ -1,6 +1,10 @@
 import React from 'react'
+//IMPORT COMPONENT
 import { Button } from 'reactstrap'
 import ProfileAchievement from './ProfileAchievement';
+//IMPORT ICONS
+import { FaInstagram, FaTwitter, FaTiktok, FaFacebook } from 'react-icons/fa'
+//IMPORT ASSETS
 import PP from '../../Assets/images/pp.jpg';
 import '../../Assets/css/Profile.css'
 
@@ -13,6 +17,14 @@ function Profile() {
                         <div className='card pp-section bg-light'>
                             <img className='profile-pict mb-3' src={PP} alt="profile" />
                             <Button className='btn-change-profile' color='danger'>Change Profile Picture</Button>
+                        </div>
+                        <div className='row'>
+                            <ul className='profile-socials'>
+                                <li><a className='instagram' href='https://www.instagram.com/'><FaInstagram /></a></li>
+                                <li><a className='twitter' href='https://twitter.com/'><FaTwitter /></a></li>
+                                <li><a className='tiktok' href='https://www.tiktok.com/'><FaTiktok /></a></li>
+                                <li><a className='facebook' href='https://www.facebook.com/'><FaFacebook /></a></li>
+                            </ul>
                         </div>
                     </div>
                     <div className='col-9 pt-5 px-5 bg-white'>
@@ -50,16 +62,15 @@ function Profile() {
                                 </tbody>
                             </table>
                             <div class="mb-3">
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Halo nama saya dimas saya senang berteman dengan siapa saja, ayo bermain bersama dan have fun didalam game</textarea>
+                                <label className='my-1 text-warning'>About me</label>
+                                <textarea class="form-control form-sizing" id="exampleFormControlTextarea1" rows="3">Halo nama saya dimas saya senang berteman dengan siapa saja, ayo bermain bersama dan have fun didalam game</textarea>
                             </div>
                             <div className='row'>
                                 <ProfileAchievement />
-
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </>
     )

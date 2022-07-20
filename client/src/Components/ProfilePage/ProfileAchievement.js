@@ -50,7 +50,7 @@ function ProfileAchievement() {
                     </div>
                 </div>
             </div>
-            <div className='row bg-light'>
+            <div className='row'>
                 <div className='text-center mt-2 mb-5'>
                     <NavLink to='./list-game'><Button className='btn-list btn-all-game'>SEE ALL GAME ACHIEVEMENT</Button></NavLink>
                 </div>
