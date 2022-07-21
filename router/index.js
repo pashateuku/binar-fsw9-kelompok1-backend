@@ -7,7 +7,7 @@ const login = require('../controllers/login');
 
 router.get("/", home.index);
 router.post("/register",register);
-router.get('/login',login);
+router.post('/login',login);
 
 
 module.exports = router;
